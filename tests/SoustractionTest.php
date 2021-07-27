@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class SoustractionTest extends TestCase
 {
-    public function testSomething(): void
+    public function testSoustraction(): void
     {
         $resultRequire = [10.0];
         $resultSent = ["20","-","10"];
