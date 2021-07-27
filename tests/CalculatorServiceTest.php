@@ -12,7 +12,6 @@ class CalculatorServiceTest extends TestCase
     public function testCalculatorService(): void
     {
 
-            //   5*5+5/5-1
        $request = Request::create(
            '/calculator',
            'POST',
