@@ -4,7 +4,9 @@
 namespace App\Service;
 
 
-class MultiplicationService
+use App\InterfaceRequired\RequiredInterface;
+
+class MultiplicationService extends RequiredInterface
 {
     public function getResult(array $operation) : array
     {

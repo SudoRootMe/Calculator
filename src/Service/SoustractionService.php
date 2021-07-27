@@ -4,7 +4,9 @@
 namespace App\Service;
 
 
-class SoustractionService
+use App\InterfaceRequired\RequiredInterface;
+
+class SoustractionService extends RequiredInterface
 {
     public function getResult(array $operation) : array
     {

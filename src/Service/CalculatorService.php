@@ -3,10 +3,6 @@
 
 namespace App\Service;
 
-use App\Service\MultiplicationService;
-use App\Service\DivisionService;
-use App\Service\AdditionService;
-use App\Service\SoustractionService;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

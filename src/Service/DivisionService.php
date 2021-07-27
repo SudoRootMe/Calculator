@@ -3,7 +3,9 @@
 
 namespace App\Service;
 
-class DivisionService
+use App\InterfaceRequired\RequiredInterface;
+
+class DivisionService extends RequiredInterface
 {
     public function getResult(array $operation) : array
     {

@@ -3,7 +3,9 @@
 
 namespace App\Service;
 
-class AdditionService
+use App\InterfaceRequired\RequiredInterface;
+
+class AdditionService extends RequiredInterface
 {
 
     public function getResult(array $operation) : array
