@@ -11,9 +11,7 @@ class AdditionTest extends TestCase
     {
         $resultRequire = [10.0];
         $resultSent = ["5","+","5"];
-
         $service = new AdditionService();
-
         $this->assertSame($resultRequire,$service->getResult($resultSent));
         return $resultRequire;
     }
